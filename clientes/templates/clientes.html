@@ -1,4 +1,4 @@
-{% extends "base.html"  %}
+{% extends "base.html" %}
 {% load static %}
 
 {% block 'head' %}
@@ -6,5 +6,18 @@
 {% endblock %}
 
 {% block 'dashboard' %}
-    <h1>Teste</h1>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md card-dashboard">
+            <p class="text-card">Adicionar clientes</p>
+        </div>
+
+        <div class="col-md card-dashboard">
+            <p class="text-card">Atualizar cliente</p>
+        </div>
+
+    </div>
+</div>
+
 {% endblock %}
